@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneaker Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-one flex-row">
+        <div class="header-one-left flex-row">
+          <div>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-bootstrap fa-3x"></i>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="text-decoration-none text-secondary">
+              <i class="fas fa-home"></i>
+              <span>HOME</span>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="text-decoration-none text-secondary">
+              <i class="fas fa-list"></i>
+              <span>COLLECTIONS</span>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="text-decoration-none text-secondary">
+              <i class="fas fa-shopping-cart"></i>
+              <span>PURCHASE LIST</span>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="text-decoration-none text-secondary">
+              <span>POST AN AD</span>
+            </a>
+          </div>
+        </div>
+        <div class="header-one-right flex-row">
+          <div>
+            <a href="#" class="text-decoration-none text-secondary">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="text-decoration-none text-secondary">
+              <span>ERKIN SHERALIEV</span>
+            </a>
+          </div>
+
+          <div>
+            <a href="#">
+              <img
+                src="https://lh3.googleusercontent.com/a-/AOh14GgNCD8mAkz1hpdKGt05go-WBWIoTJd59GE6zADV=s88-c-k-c0x00ffffff-no-rj-mo"
+                alt="Erkin Sheraliev"
+                class="profile-img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header-two flex-col">
+        <div>
+          <h1>
+            <a href="#" class="text-decoration-none text-secondary">BAZAR</a>
+          </h1>
+          <p>Buying and Selling Couldn't be Simpler than this!</p>
+        </div>
+        <div class="search-form container-fluid">
+          <form action="" class="row flex-row justify-content-center">
+            <select name="" id="" class="col-md-2">
+              <option value="">All Departments</option>
+              <option value="">Electronics</option>
+              <option value="">Fashion</option>
+              <option value="">Automotives</option>
+            </select>
+            <input type="text" class="col-md-3" placeholder="What do you search for?" />
+            <input type="text" class="col-md-3" placeholder="Location" />
+            <input type="submit" class="col-md-1" value="SEARCH">
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="main-padding">
+    <main>
+      <section class="item-hidden">
+        <div class="padding">
+          <h2>HOT ADS</h2>
+          <hr>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="hot-ads-box flex-row">
+                <div class="hot-ads-img">
+                  <img
+                    src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>
+                    <a href="#" class="text-decoration-none text-secondary"
+                      >IPHONE XI PRO</a
+                    >
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    sequi pariatur culpa reiciendis tempora ratione vitae
+                    quibusdam, voluptate neque magni aliquid in molestias a quo
+                    adipisci ducimus maxime, repellendus sit.
+                  </p>
+                  <span><b>By:</b>Erkin Sheraliev</span>
+                  <span
+                    ><b>Location:</b>Menlo Park, California, United States</span
+                  >
+                  <div>
+                    <button>$450</button>
+                    <button>
+                      <i class="fas fa-shopping-cart"></i>Purchase Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="hot-ads-box flex-row">
+                <div class="hot-ads-img">
+                  <img
+                    src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>
+                    <a href="#" class="text-decoration-none text-secondary"
+                      >IPHONE XI PRO</a
+                    >
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    sequi pariatur culpa reiciendis tempora ratione vitae
+                    quibusdam, voluptate neque magni aliquid in molestias a quo
+                    adipisci ducimus maxime, repellendus sit.
+                  </p>
+                  <span><b>By:</b>Erkin Sheraliev</span>
+                  <span
+                    ><b>Location:</b>Menlo Park, California, United States</span
+                  >
+                  <div>
+                    <button>$450</button>
+                    <button>
+                      <i class="fas fa-shopping-cart"></i>Purchase Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="hot-ads-box flex-row">
+                <div class="hot-ads-img">
+                  <img
+                    src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>
+                    <a href="#" class="text-decoration-none text-secondary"
+                      >IPHONE XI PRO</a
+                    >
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                    sequi pariatur culpa reiciendis tempora ratione vitae
+                    quibusdam, voluptate neque magni aliquid in molestias a quo
+                    adipisci ducimus maxime, repellendus sit.
+                  </p>
+                  <span><b>By:</b>Erkin Sheraliev</span>
+                  <span
+                    ><b>Location:</b>Menlo Park, California, United States</span
+                  >
+                  <div>
+                    <button>$450</button>
+                    <button>
+                      <i class="fas fa-shopping-cart"></i>Purchase Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev "
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="cs-icon "
+              aria-hidden="true"
+            ><i class="fas fa-chevron-left"></i></span>
+            <span class="sr-only ">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next "
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span
+            class="cs-icon"
+              aria-hidden="true"
+            ><i class="fas fa-chevron-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+      </section>
+      <div class="padding">
+        <hr />
+        <h2>
+          <i class="fas fa-tv"></i>Electronics
+          
+        </h2>
+        <hr />
+      </div>
+      <section>
+        <div id="electronics" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="grid-container">
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box item-hidden">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="grid-container">
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box item-hidden">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev p-0"
+            href="#electronics"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#electronics"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+      </section>
+      <div class="padding">
+        <hr />
+        <h2>
+          <i class="fas fa-tv"></i>Electronics
+          
+        </h2>
+        <hr />
+      </div>
+      <section>
+        <div id="fashion" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="grid-container">
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box item-hidden">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="grid-container">
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box item-hidden">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev p-0"
+            href="#fashion"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#fashion"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+      </section>
+      <div class="padding">
+        <hr />
+        <h2>
+          <i class="fas fa-tv"></i>Electronics
+          
+        </h2>
+        <hr />
+      </div>
+      <section>
+        <div id="automotives" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="grid-container">
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box item-hidden">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="grid-container">
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box item-hidden">
+                  <div>
+                    <img
+                      src="https://i.ebayimg.com/thumbs/images/g/ZP8AAOSwIt5ehIYh/s-l225.webp"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      <a href="#" class="text-decoration-none text-secondary"
+                        >IPHONE XI PRO</a
+                      >
+                    </h5>
+                    <b>Used</b>
+                    <span>From: San Fransisco, CA</span>
+                    <div>
+                      <a href="#" class="text-decoration-none"
+                        ><i class="fas fa-plus"></i
+                      ></a>
+                      <span>$450</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev p-0"
+            href="#automotives"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#automotives"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+       
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <div class="row text-center pl-5 pr-5">
+          <div class="col-md ">
+            <h5>BAZAR</h5>
+            <p class="">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              tenetur dolor porro consectetur neque asperiores quidem, dolore eum
+              voluptate distinctio mollitia, ipsa fuga quia officia?
+            </p>
+          </div>
+          <div class="col">
+            <span>Categories</span>
+            <hr />
+            <div class="d-flex justify-content-around">
+              <ul class="list-unstyled ">
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+              </ul>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col ">
+            <span>Categories</span>
+            <hr />
+            <div class="d-flex justify-content-center">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-secondary"
+                    >ipsum</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md flex-col align-self-center ">
+            <div class="p-2">
+              <span class="pr-2">COUNTRY</span><button>United Kingtom</button>
+            </div>
+            <div class="p-2">
+              <span class="pr-2">COUNTRY</span><button>United Kingtom</button>
+            </div>
+            <div class="p-2">
+              <span class="pr-2">COUNTRY</span><button>United Kingtom</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+      </div>
+  </body>
+</html>
